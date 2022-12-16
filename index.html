@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hrestart | Contato</title>
+
+
+
+  </head>
+  <body>
+  
+
+  <div class="content">
+    
+    <div class="container">
+      <div class="row align-items-stretch justify-content-center no-gutters">
+        <div class="col-md-9">
+          <div class="form h-100 contact-wrap p-5">
+            <div class="text-center">
+              <img src="logo_hrestart.png" style="width: 70%; margin-bottom: -40px; margin-top: -70px;">
+              <h3 style="margin-bottom: 50px; color: #F94C7F; font-weight: 600;">Entre em contato e venha tomar um cafezinho virtual com nossa equipe!</h3>
+            
+            </div>
+            
+            <form class="mb-5 box" method="post" id="contactForm" name="contactForm">
+              <div class="row">
+
+                <input id="date" name="prop_date" style="display:none">
+
+
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Como gostaria de ser chamado (a)*</label>
+                  <input type="text" class="form-control" onkeyup="success()" name="nome_responsavel" id="nome_responsavel">
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">E-mail Profissional*</label>
+                  <input type="mail" class="form-control" onkeyup="success()" name="email" id="email">
+                </div>
+
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Celular*</label>
+                  <input type="text" class="form-control" onkeyup="success()" name="celular" id="celular">
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Cargo*</label>
+                  <input type="text" class="form-control" onkeyup="success()" name="cargo" id="cargo">
+                </div>
+
+                <div class="col-md-12 form-group mb-3">
+                  <label for="" class="col-form-label">Nome da Empresa*</label>
+                  <input type="text" class="form-control" onkeyup="success()" name="nome_empresa" id="nome_empresa">
+                </div>
+
+                <div class="col-md-12 form-group mb-3">
+                  <label for="" class="col-form-label">Número de Colaboradores*</label>
+                  <select name="numero_colaboradores" class="form-control" onkeyup="success()" id="numero_colaboradores">
+                      <option value=""></option>
+                      <option value="0-50 colaboradores">0-50 colaboradores</option>
+                      <option value="51-200 colaboradores">51-200 colaboradores</option>
+                      <option value="201-500 colaboradores">201-500 colaboradores</option>
+                      <option value="501 - 1.000 colaboradores">501 - 1.000 colaboradores</option>
+                      <option value="1.001 - 5.000 colaboradores">1.001 - 5.000 colaboradores</option>
+                      <option value="5.001 - 10.000 colaboradores">5.001 - 10.000 colaboradores</option>
+                      <option value="+ 10.001 colaboradores">+ 10.001 colaboradores</option>
+                  </select>                
+                </div>
+
+                <div class="col-md-12 form-group mb-3">
+                  <label for="" class="col-form-label">No que podemos te ajudar?*</label>
+                  <select name="no_que_podemos_ajudar" class="form-control" id="cars">
+                      <option value=""></option>
+                      <option value="Quero automatizar meu processo de admissão de novos colaboradores">Quero automatizar meu processo de admissão de novos colaboradores</option>
+                      <option value="Quero diminuir o turnover da minha empresa">Quero diminuir o turnover da minha empresa</option>
+                      <option value="Quero melhorar a experiência dos meus candidatos">Quero melhorar a experiência dos meus candidatos</option>
+                      <option value="Outro">Outro</option>
+                  </select>                
+                </div>
+
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Como conheceu a gente?*</label>
+                  <select name="como_conheceu_a_gente" class="form-control" id="cars">
+                      <option value=""></option>
+                      <option value="Indicação">Indicação</option>
+                      <option value="LinkedIn">LinkedIn</option>
+                      <option value="Pesquisa Google">Pesquisa Google</option>
+                      <option value="Google for Startups">Google for Startups</option>
+                      <option value="Distrito">Distrito</option>
+                      <option value="100 Startups to Watch">100 Startups to Watch</option>
+                      <option value="Grupo de WhatsApp">Grupo de WhatsApp</option>
+                      <option value="Youtube">Youtube</option>
+                      <option value="Eventos">Eventos</option>
+                      <option value="Anúncio Instagram">Anúncio Instagram</option>
+                      <option value="Estudos sobre startups">Estudos sobre startups</option>
+                      <option value="Podcast">Podcast</option>
+                      <option value="AMCHAM">AMCHAM</option>
+                  </select>                
+                </div>
+
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Deseja receber nossos conteúdos?*</label>
+                  <select name="deseja_receber_conteudos" class="form-control" id="cars">
+                      <option value=""></option>
+                      <option value="Sim">Sim</option>
+                      <option value="Não">Não</option>
+                  </select>                
+                </div>
+                
+              </div>
+
+              
+              <div class="row justify-content-center" style="margin-top: 40px">
+                <div class="col-md-5 form-group text-center">
+                  <button id="button" type="submit" class="btn btn-block btn-hrestart rounded-0 py-2 px-4" disabled onclick="showHtmlDiv();">Enviar</button>
+                  
+                </div>
+              </div>
+            </form>
+
+            <div class="text-center" id="output" style="display: none">
+              <img id="img1" src="check-circle.gif" style="margin-bottom: 20px">
+              <p>Sua mensagem foi enviada com sucesso e em breve nossa equipe comercial irá entrar em contato para agendar um bate papo!</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+    $("#contactForm").submit(function(e) {
+    e.preventDefault();
+});
+  </script>
+
+  <script type="text/javascript">
+    function showHtmlDiv() {
+  var htmlShow = document.getElementById("output");
+  var dope = document.getElementById("contactForm");
+  if (htmlShow.style.display === "none") {
+    htmlShow.style.display = "block";
+    dope.style.display = "none";
+  } else {
+    htmlShow.style.display = "none";
+  }
+}
+  </script>
+
+  
+
+
+   <script type="text/javascript">
+      setTimeout(function() {
+    setInterval(function() {
+        $('#img1').attr('src',$('#img1').attr('src'))
+    },1)
+}, 1000)
+    </script>
+    
+
+    <script type="text/javascript">
+      function success() {
+   if(document.getElementById("nome_responsavel").value==="" || document.getElementById("email").value==="" || document.getElementById("celular").value==="" || document.getElementById("cargo").value==="" || document.getElementById("nome_empresa").value==="") { 
+            document.getElementById('button').disabled = true; 
+        } else { 
+            document.getElementById('button').disabled = false;
+        }
+    }
+    </script>
+
+    <script type="text/javascript">
+      
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxbT5CwSZF3FxEUnvd-PFDysv_Jo6WMMoOyrZ9iMSqoc3e-dfdB9oWVCv6QiQPKw8MU3g/exec'
+  const form = document.forms['contactForm']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script type="text/javascript">
+  document.getElementById('date').value = Date();
+</script>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
